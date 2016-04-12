@@ -1,0 +1,45 @@
+{
+  "name": "totalwind-api",
+  "description": "Programatic API access for totalwind.net",
+  "homepage": "https://github.com/Kikobeats/totalwind-api",
+  "version": "0.0.0",
+  "main": "./index.js",
+  "author": {
+    "name": "Kiko Beats",
+    "email": "josefrancisco.verdu@gmail.com",
+    "url": "https://github.com/Kikobeats"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kikobeats/totalwind-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Kikobeats/totalwind-api/issues"
+  },
+  "keywords": [
+    "api",
+    "totalwind",
+    "windsurf"
+  ],
+  "dependencies": {
+    "entities": "~1.1.1",
+    "from2": "~2.1.1",
+    "got": "~5.6.0"
+  },
+  "devDependencies": {
+    "git-dirty": "latest",
+    "mocha": "latest",
+    "should": "latest",
+    "standard": "latest"
+  },
+  "engines": {
+    "node": ">= 0.12"
+  },
+  "scripts": {
+    "clean": "rm -rf node_modules",
+    "lint": "standard lib",
+    "pretest": "npm run lint",
+    "test": "mocha"
+  },
+  "license": "MIT"
+}
