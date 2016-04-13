@@ -1,3 +1,10 @@
+<a name="0.2.2"></a>
+## 0.2.2 (2016-04-13)
+
+* Use UNIX timestamp ([6b487d8](https://github.com/kikobeats/totalwind-api/commit/6b487d8))
+
+
+
 <a name="0.2.1"></a>
 ## 0.2.1 (2016-04-13)
 
