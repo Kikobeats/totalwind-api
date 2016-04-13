@@ -46,7 +46,7 @@ function normalizeDate (date) {
   date = date.split(' ')
   date[0] = days[date[0]]
   date[1] = months[date[1]]
-  return new Date(date.join(' '))
+  return new Date(date.join(' ')).getTime()
 }
 
 function sanetizeTopic (topic) {
