@@ -17,11 +17,43 @@ var DEFAULT = {
   }
 }
 
+function normalizeDate (date) {
+  var months = {
+    'Ene': 'Jan',
+    'Feb': 'Feb',
+    'Mar': 'Mar',
+    'Abr': 'Apr',
+    'May': 'May',
+    'Jun': 'Jun',
+    'Jul': 'Jul',
+    'Ago': 'Aug',
+    'Sep': 'Sep',
+    'Oct': 'Oct',
+    'Nov': 'Nov',
+    'Dic': 'Dec'
+  }
+
+  var days = {
+    'Lun': 'Mon',
+    'Mar': 'Tue',
+    'Mié': 'Wed',
+    'Jue': 'Thu',
+    'Vie': 'Fri',
+    'Sáb': 'Sat',
+    'Dom': 'Sun'
+  }
+
+  date = date.split(' ')
+  date[0] = days[date[0]]
+  date[1] = months[date[1]]
+  return new Date(date.join(' '))
+}
+
 function sanetizeTopic (topic) {
   topic.link = decodeHTML(topic.link.replace(CONST.REGEX_SID, ''))
   topic.link = path.join(CONST.ROOT, topic.link)
-  topic.createdAt = new Date(topic.createdAt)
-  topic.updatedAt = new Date(topic.updatedAt)
+  topic.createdAt = normalizeDate(topic.createdAt)
+  topic.updatedAt = normalizeDate(topic.updatedAt)
   return topic
 }
 
@@ -31,7 +63,7 @@ function request (options, cb) {
 
 function Request (opts) {
   function fetchStream (query) {
-    query = Object.assign(DEFAULT.query, query)
+    query = Object.assign({}, DEFAULT.query, query)
     query.wrapAPIKey = opts.key
     var gotOptions = {json: true, query: query}
 
