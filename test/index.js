@@ -8,7 +8,7 @@ var Totalwind = require('..')
 it('works fine', function (done) {
   var totalwind = Totalwind({
     key: process.env.API_KEY,
-    pagination: 3
+    pages: 3
   })
 
   var topics = totalwind.purchase.particular.boards()
@@ -24,5 +24,7 @@ it('works fine', function (done) {
     console.log(++count + ':', data.title)
   })
 
-  topics.on('end', done)
+  ;['end', 'error'].forEach(function (event) {
+    topics.on(event, done)
+  })
 })

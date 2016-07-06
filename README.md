@@ -15,6 +15,17 @@
 $ npm install totalwind-api --save
 ```
 
+## Usage
+
+```js
+var totalwind = require('totalwind-api')
+
+var client = totalwind({
+  key: process.env.API_KEY, // your API Key credentials
+  pages: 3 // Numbers or request per each method call
+})
+```
+
 ## License
 
 MIT © [Kiko Beats](http://kikobeats.com)
