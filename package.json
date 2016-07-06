@@ -3,7 +3,7 @@
   "description": "Programatic API access for totalwind.net",
   "homepage": "https://github.com/Kikobeats/totalwind-api",
   "version": "0.2.2",
-  "main": "./index.js",
+  "main": "index.js",
   "author": {
     "name": "Kiko Beats",
     "email": "josefrancisco.verdu@gmail.com",
@@ -33,7 +33,7 @@
     "standard": "latest"
   },
   "engines": {
-    "node": ">= 0.12"
+    "node": ">= 0.10"
   },
   "scripts": {
     "clean": "rm -rf node_modules",
