@@ -2,6 +2,7 @@
 
 ![Last version](https://img.shields.io/github/tag/Kikobeats/totalwind-api.svg?style=flat-square)
 [![Build Status](http://img.shields.io/travis/Kikobeats/totalwind-api/master.svg?style=flat-square)](https://travis-ci.org/Kikobeats/totalwind-api)
+[![Coverage Status](https://img.shields.io/coveralls/Kikobeats/totalwind-api.svg?style=flat-square)](https://coveralls.io/github/Kikobeats/totalwind-api)
 [![Dependency status](http://img.shields.io/david/Kikobeats/totalwind-api.svg?style=flat-square)](https://david-dm.org/Kikobeats/totalwind-api)
 [![Dev Dependencies Status](http://img.shields.io/david/dev/Kikobeats/totalwind-api.svg?style=flat-square)](https://david-dm.org/Kikobeats/totalwind-api#info=devDependencies)
 [![NPM Status](http://img.shields.io/npm/dm/totalwind-api.svg?style=flat-square)](https://www.npmjs.org/package/totalwind-api)
