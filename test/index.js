@@ -11,7 +11,6 @@ it('works fine', function (done) {
     pagination: 3
   })
 
-  // var topics = totalwind({forum: 48})
   var topics = totalwind.purchase.particular.boards()
 
   var count = 0
@@ -20,8 +19,8 @@ it('works fine', function (done) {
     data.should.be.an.Object()
     data.should.have.property('title')
     data.should.have.property('link')
-    data.should.have.property('createdAt').which.is.a.Date()
-    data.should.have.property('updatedAt').which.is.a.Date()
+    data.should.have.property('createdAt').which.is.a.Number()
+    data.should.have.property('updatedAt').which.is.a.Number()
     console.log(++count + ':', data.title)
   })
 
