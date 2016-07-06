@@ -2,7 +2,7 @@
   "name": "totalwind-api",
   "description": "Programatic API access for totalwind.net",
   "homepage": "https://github.com/Kikobeats/totalwind-api",
-  "version": "0.2.2",
+  "version": "1.0.0",
   "main": "lib",
   "author": {
     "name": "Kiko Beats",
