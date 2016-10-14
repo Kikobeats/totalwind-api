@@ -18,7 +18,7 @@ it('works fine', function (done) {
   topics.on('data', function (data) {
     data.should.be.an.Object()
     data.should.have.property('title')
-    data.should.have.property('link')
+    data.should.have.property('url')
     data.should.have.property('createdAt').which.is.a.Number()
     data.should.have.property('updatedAt').which.is.a.Number()
     console.log(++count + ':', data.title)
