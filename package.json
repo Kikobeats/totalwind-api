@@ -2,11 +2,11 @@
   "name": "totalwind-api",
   "description": "Programatic API access for totalwind.net",
   "homepage": "https://github.com/Kikobeats/totalwind-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "lib",
   "author": {
-    "name": "Kiko Beats",
     "email": "josefrancisco.verdu@gmail.com",
+    "name": "Kiko Beats",
     "url": "https://github.com/Kikobeats"
   },
   "repository": {

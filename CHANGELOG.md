@@ -1,3 +1,12 @@
+<a name="1.0.1"></a>
+## 1.0.1 (2016-10-14)
+
+* link → url ([fddd1ee](https://github.com/kikobeats/totalwind-api/commit/fddd1ee))
+* chore(package): update from2 to version 2.2.0 ([81e7aa2](https://github.com/kikobeats/totalwind-api/commit/81e7aa2))
+* chore(package): update from2 to version 2.3.0 ([cc68f63](https://github.com/kikobeats/totalwind-api/commit/cc68f63))
+
+
+
 <a name="1.0.0"></a>
 # 1.0.0 (2016-07-06)
 
