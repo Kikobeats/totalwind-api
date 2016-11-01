@@ -1,3 +1,13 @@
+<a name="1.0.2"></a>
+## 1.0.2 (2016-11-01)
+
+* Fix test ([d24de1a](https://github.com/kikobeats/totalwind-api/commit/d24de1a))
+* Little Refactor ([a23fd9b](https://github.com/kikobeats/totalwind-api/commit/a23fd9b))
+* Tweaks ([2ce8f38](https://github.com/kikobeats/totalwind-api/commit/2ce8f38))
+* Update got ([dcc85f3](https://github.com/kikobeats/totalwind-api/commit/dcc85f3))
+
+
+
 <a name="1.0.1"></a>
 ## 1.0.1 (2016-10-14)
 
