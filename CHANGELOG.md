@@ -1,3 +1,10 @@
+<a name="1.0.3"></a>
+## 1.0.3 (2016-11-24)
+
+* Update endpoints ([c9a2bd9](https://github.com/kikobeats/totalwind-api/commit/c9a2bd9))
+
+
+
 <a name="1.0.2"></a>
 ## 1.0.2 (2016-11-01)
 
