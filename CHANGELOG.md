@@ -1,3 +1,10 @@
+<a name="1.0.4"></a>
+## 1.0.4 (2016-11-27)
+
+* Add fins endpoint ([dacaf3e](https://github.com/kikobeats/totalwind-api/commit/dacaf3e))
+
+
+
 <a name="1.0.3"></a>
 ## 1.0.3 (2016-11-24)
 
