@@ -1,3 +1,10 @@
+<a name="1.0.5"></a>
+## 1.0.5 (2016-12-17)
+
+* Update forum path ([997e787](https://github.com/kikobeats/totalwind-api/commit/997e787))
+
+
+
 <a name="1.0.4"></a>
 ## 1.0.4 (2016-11-27)
 
