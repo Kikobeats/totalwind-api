@@ -1,3 +1,10 @@
+<a name="1.0.6"></a>
+## 1.0.6 (2017-01-09)
+
+* chore(package): update dependencies ([13ff715](https://github.com/kikobeats/totalwind-api/commit/13ff715))
+
+
+
 <a name="1.0.5"></a>
 ## 1.0.5 (2016-12-17)
 
