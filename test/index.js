@@ -18,13 +18,13 @@ it('works fine', function (done) {
   var count = 0
 
   topics.on('data', function (data) {
+    console.log(++count + ':', data.title)
     data.should.be.an.Object()
     data.should.have.property('title')
-    data.should.have.property('url')
-    isUrl(data.url).should.be.true()
+    data.should.have.property('link')
+    isUrl(data.link).should.be.true()
     data.should.have.property('createdAt').which.is.a.Number()
     data.should.have.property('updatedAt').which.is.a.Number()
-    console.log(++count + ':', data.title)
   })
 
   ;['end', 'error'].forEach(function (event) {
