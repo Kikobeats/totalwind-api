@@ -3,7 +3,9 @@
 'use strict'
 
 require('should')
+
 var Totalwind = require('..')
+var isUrl = require('is-url-superb')
 
 it('works fine', function (done) {
   var totalwind = Totalwind({
@@ -19,6 +21,7 @@ it('works fine', function (done) {
     data.should.be.an.Object()
     data.should.have.property('title')
     data.should.have.property('url')
+    isUrl(data.url).should.be.true()
     data.should.have.property('createdAt').which.is.a.Number()
     data.should.have.property('updatedAt').which.is.a.Number()
     console.log(++count + ':', data.title)
