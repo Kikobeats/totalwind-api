@@ -1,3 +1,10 @@
+<a name="1.1.0"></a>
+# 1.1.0 (2017-01-11)
+
+* url → link ([2529722](https://github.com/kikobeats/totalwind-api/commit/2529722))
+
+
+
 <a name="1.0.7"></a>
 ## 1.0.7 (2017-01-11)
 
