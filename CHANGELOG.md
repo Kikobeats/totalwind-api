@@ -1,3 +1,10 @@
+<a name="1.0.7"></a>
+## 1.0.7 (2017-01-11)
+
+* Fix malformed url ([0c27685](https://github.com/kikobeats/totalwind-api/commit/0c27685))
+
+
+
 <a name="1.0.6"></a>
 ## 1.0.6 (2017-01-09)
 
