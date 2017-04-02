@@ -1,3 +1,14 @@
+<a name="1.2.0"></a>
+# 1.2.0 (2017-04-02)
+
+* Avoid unnecessary builds ([169b339](https://github.com/kikobeats/totalwind-api/commit/169b339))
+* Remove pinned posts ([2973b16](https://github.com/kikobeats/totalwind-api/commit/2973b16))
+* Start at 0 ([2d8214d](https://github.com/kikobeats/totalwind-api/commit/2d8214d))
+* tweaks ([7390bf8](https://github.com/kikobeats/totalwind-api/commit/7390bf8))
+* Update according with last version ([cea85e2](https://github.com/kikobeats/totalwind-api/commit/cea85e2))
+
+
+
 <a name="1.1.0"></a>
 # 1.1.0 (2017-01-11)
 
