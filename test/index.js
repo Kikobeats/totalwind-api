@@ -18,7 +18,7 @@ it('works fine', function (done) {
   var count = 0
 
   topics.on('data', function (data) {
-    console.log(++count + ':', data.title)
+    console.log(++count, data)
     data.should.be.an.Object()
     data.should.have.property('title')
     data.should.have.property('link')
