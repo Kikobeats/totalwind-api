@@ -22,13 +22,14 @@
     "windsurf"
   ],
   "dependencies": {
-    "entities": "~1.1.1",
     "from2": "~2.3.0",
-    "got": ">=6.7.1"
+    "got": ">=6.7.1",
+    "qsm": "~1.1.2"
   },
   "devDependencies": {
     "coveralls": "latest",
     "git-dirty": "latest",
+    "is-absolute-url": "~2.1.0",
     "is-url-superb": "latest",
     "mocha": "latest",
     "nyc": "latest",
@@ -45,5 +46,11 @@
     "pretest": "npm run lint",
     "test": "nyc mocha"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "standard": {
+    "globals": [
+      "describe",
+      "it"
+    ]
+  }
 }

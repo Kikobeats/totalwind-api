@@ -1,33 +1,51 @@
-/* global it */
-
 'use strict'
 
-require('should')
+const isAbsoluteUrl = require('is-absolute-url')
+const should = require('should')
 
-var Totalwind = require('..')
-var isUrl = require('is-url-superb')
+const createClient = require('..')
 
-it('works fine', function (done) {
-  var totalwind = Totalwind({
+describe('totalwind-api', function () {
+  const client = createClient({
     key: process.env.API_KEY,
     pages: 3
   })
 
-  var topics = totalwind.purchase.particular.boards()
+  const stream = client.purchase.particular.boards()
 
-  var count = 0
+  let count = 0
+  let buffer = []
 
-  topics.on('data', function (data) {
-    console.log(++count, data)
-    data.should.be.an.Object()
-    data.should.have.property('title')
-    data.should.have.property('link')
-    isUrl(data.link).should.be.true()
-    data.should.have.property('createdAt').which.is.a.Number()
-    data.should.have.property('updatedAt').which.is.a.Number()
-  })
+  it('fetch data', function (done) {
+    stream.on('data', function (item) {
+      console.log(++count, item)
+      buffer.push(item)
+    })
 
-  ;['end', 'error'].forEach(function (event) {
-    topics.on(event, done)
+    stream.on('error', done)
+
+    stream.on('end', function () {
+      should(count > 1).be.true()
+
+      buffer.forEach(item => {
+        const {title} = item
+        describe(title, function () {
+          should(item).be.an.Object()
+
+          describe('url', function () {
+            ;[
+              'link'
+            ].forEach(function (prop) {
+              it(prop, () => isAbsoluteUrl(item[prop]).should.be.true())
+            })
+          })
+
+          describe('rest of props', function () {
+            it('title', () => item.title.should.be.an.String())
+          })
+        })
+      })
+      done()
+    })
   })
 })
