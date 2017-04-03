@@ -1,3 +1,10 @@
+<a name="1.2.1"></a>
+## 1.2.1 (2017-04-03)
+
+* chore(package): update qsm to version 1.2.0 ([5b76513](https://github.com/kikobeats/totalwind-api/commit/5b76513))
+
+
+
 <a name="1.2.0"></a>
 # 1.2.0 (2017-04-02)
 
