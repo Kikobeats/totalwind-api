@@ -1,3 +1,10 @@
+<a name="1.2.2"></a>
+## 1.2.2 (2017-04-10)
+
+* Use https ([1e9d88c](https://github.com/kikobeats/totalwind-api/commit/1e9d88c))
+
+
+
 <a name="1.2.1"></a>
 ## 1.2.1 (2017-04-03)
 
