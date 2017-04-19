@@ -36,12 +36,12 @@ describe('totalwind-api', function () {
             ;[
               'link'
             ].forEach(function (prop) {
-              it(prop, () => isAbsoluteUrl(item[prop]).should.be.true())
+              it(prop, () => should(isAbsoluteUrl(item[prop])).be.true())
             })
           })
 
           describe('rest of props', function () {
-            it('title', () => item.title.should.be.an.String())
+            it('title', () => should(item.title).be.an.String())
           })
         })
       })
