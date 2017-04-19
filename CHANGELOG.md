@@ -1,3 +1,10 @@
+<a name="1.2.3"></a>
+## 1.2.3 (2017-04-19)
+
+* Tests refactor ([110008d](https://github.com/kikobeats/totalwind-api/commit/110008d))
+
+
+
 <a name="1.2.2"></a>
 ## 1.2.2 (2017-04-10)
 
