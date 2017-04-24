@@ -1,3 +1,11 @@
+<a name="1.2.4"></a>
+## 1.2.4 (2017-04-24)
+
+* Fix pop over the filter collection ([fc0cc68](https://github.com/kikobeats/totalwind-api/commit/fc0cc68))
+* Update travis builds ([6e8ce13](https://github.com/kikobeats/totalwind-api/commit/6e8ce13))
+
+
+
 <a name="1.2.3"></a>
 ## 1.2.3 (2017-04-19)
 
