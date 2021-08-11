@@ -29,7 +29,7 @@
   "devDependencies": {
     "coveralls": "latest",
     "git-dirty": "latest",
-    "is-absolute-url": "~3.0.0",
+    "is-absolute-url": "~4.0.0",
     "is-url-superb": "latest",
     "mocha": "latest",
     "nyc": "latest",
